@@ -15,6 +15,7 @@ import com.nikp.payment.infrastructure.exceptions.ReCaptchaInvalidException;
 
 
 
+
 public abstract class AbstractCaptchaService implements ICaptchaService{
     
     private final static Logger LOGGER = LoggerFactory.getLogger(AbstractCaptchaService.class);
